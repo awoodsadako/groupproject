@@ -1,0 +1,68 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.display-4 {font-family: cursive;
+   font-weight: 900; 
+   font-size: 100px; 
+   color:white;
+}
+
+.lead {font-family: cursive;
+  color: white
+}
+
+.my-0 {font-family: cursive; color: #db115c; }
+
+.list-unstyled {font-family: cursive;color: #558ed2; }
+
+.letters {font-family: cursive; color: white;}
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+.responsive {
+max-width: 100%;
+height: auto;
+}
+
+.flavorcontainer { 
+margin: auto;
+text-align: center;}
